@@ -1,6 +1,8 @@
 package com.shuzijun.leetcode.plugin.editor;
 
 import com.intellij.openapi.project.Project;
+import com.intellij.openapi.project.Project;
+
 import com.intellij.openapi.project.ProjectManager;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
@@ -17,7 +19,7 @@ import java.util.Map;
 /**
  * @author shuzijun
  */
-public abstract class BaseController {
+public abstract class BaseController{
 
     // every time the plugin starts up, assume resources could have been modified
     protected static final long LAST_MODIFIED = System.currentTimeMillis();
